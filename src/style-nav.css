@@ -1,0 +1,25 @@
+.nav-container {
+    font-family: sans-serif;
+    background-color: lightgreen;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-container div {
+    user-select: none;
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 8px;
+    border-radius: 1rem;
+    width: 150px;
+    text-align: center;
+}
+
+.color {
+    background-color: greenyellow;
+}
